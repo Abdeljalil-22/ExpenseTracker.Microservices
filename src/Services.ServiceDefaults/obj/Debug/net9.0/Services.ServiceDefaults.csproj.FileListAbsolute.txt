@@ -1,0 +1,12 @@
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\bin\Debug\net9.0\Services.ServiceDefaults.deps.json
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\bin\Debug\net9.0\Services.ServiceDefaults.dll
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\bin\Debug\net9.0\Services.ServiceDefaults.pdb
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\obj\Debug\net9.0\Services.ServiceDefaults.csproj.AssemblyReference.cache
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\obj\Debug\net9.0\Services.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\obj\Debug\net9.0\Services.ServiceDefaults.AssemblyInfoInputs.cache
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\obj\Debug\net9.0\Services.ServiceDefaults.AssemblyInfo.cs
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\obj\Debug\net9.0\Services.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\obj\Debug\net9.0\Services.ServiceDefaults.dll
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\obj\Debug\net9.0\refint\Services.ServiceDefaults.dll
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\obj\Debug\net9.0\Services.ServiceDefaults.pdb
+C:\SourceTest\ExpenseTracker.Microservices\src\Services.ServiceDefaults\obj\Debug\net9.0\ref\Services.ServiceDefaults.dll

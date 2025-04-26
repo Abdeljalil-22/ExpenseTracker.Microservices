@@ -1,0 +1,359 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3FF9C7B-DC19-52B5-B861-716F1AFD9714}|ApiGateway\\ApiGateway\\ApiGateway.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\apigateway\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3FF9C7B-DC19-52B5-B861-716F1AFD9714}|ApiGateway\\ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97529C0-B504-E6D8-9270-B2F23CA01C57}|Services\\Dashboard.API\\Dashboard.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\dashboard.api\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97529C0-B504-E6D8-9270-B2F23CA01C57}|Services\\Dashboard.API\\Dashboard.API.csproj|solutionrelative:services\\dashboard.api\\authheaderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97529C0-B504-E6D8-9270-B2F23CA01C57}|Services\\Dashboard.API\\Dashboard.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\dashboard.api\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97529C0-B504-E6D8-9270-B2F23CA01C57}|Services\\Dashboard.API\\Dashboard.API.csproj|solutionrelative:services\\dashboard.api\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97529C0-B504-E6D8-9270-B2F23CA01C57}|Services\\Dashboard.API\\Dashboard.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\dashboard.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A97529C0-B504-E6D8-9270-B2F23CA01C57}|Services\\Dashboard.API\\Dashboard.API.csproj|solutionrelative:services\\dashboard.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A97529C0-B504-E6D8-9270-B2F23CA01C57}|Services\\Dashboard.API\\Dashboard.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\dashboard.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A97529C0-B504-E6D8-9270-B2F23CA01C57}|Services\\Dashboard.API\\Dashboard.API.csproj|solutionrelative:services\\dashboard.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identity.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\identity.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identity.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97C5C69B-8BC7-C649-1510-5628E3A406BF}|Services\\Transaction.API\\Transaction.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\transaction.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97C5C69B-8BC7-C649-1510-5628E3A406BF}|Services\\Transaction.API\\Transaction.API.csproj|solutionrelative:services\\transaction.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identity.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94165F56-21A0-DD95-AC91-D14DE9A6D145}|Services\\Category.API\\Category.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\category.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94165F56-21A0-DD95-AC91-D14DE9A6D145}|Services\\Category.API\\Category.API.csproj|solutionrelative:services\\category.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identity.api\\identity.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{495A2906-6F37-2CFE-BFDA-DF73B3245824}|Services.AppHost\\Services.AppHost.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services.apphost\\services.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{495A2906-6F37-2CFE-BFDA-DF73B3245824}|Services.AppHost\\Services.AppHost.csproj|solutionrelative:services.apphost\\services.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94165F56-21A0-DD95-AC91-D14DE9A6D145}|Services\\Category.API\\Category.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\category.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94165F56-21A0-DD95-AC91-D14DE9A6D145}|Services\\Category.API\\Category.API.csproj|solutionrelative:services\\category.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\identity.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identity.api\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94165F56-21A0-DD95-AC91-D14DE9A6D145}|Services\\Category.API\\Category.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\category.api\\category.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94165F56-21A0-DD95-AC91-D14DE9A6D145}|Services\\Category.API\\Category.API.csproj|solutionrelative:services\\category.api\\category.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\identity.api\\models\\authmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identity.api\\models\\authmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\identity.api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identity.api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\identity.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identity.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|c:\\sourcetest\\expensetracker.microservices\\src\\services\\identity.api\\migrations\\20250418104344_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D9FFFAA-E044-90D5-E4E5-CE0C2C29BA1C}|Services\\Identity.API\\Identity.API.csproj|solutionrelative:services\\identity.api\\migrations\\20250418104344_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\ApiGateway\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway\\Program.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\ApiGateway\\ApiGateway\\Program.cs*",
+              "RelativeToolTip": "ApiGateway\\ApiGateway\\Program.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAjwDsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T16:01:32.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthHeaderHandler.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Dashboard.API\\AuthHeaderHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Dashboard.API\\AuthHeaderHandler.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Dashboard.API\\AuthHeaderHandler.cs",
+              "RelativeToolTip": "Services\\Dashboard.API\\AuthHeaderHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T15:11:21.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Dashboard.API\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "Services\\Dashboard.API\\Services\\DashboardService.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Dashboard.API\\Services\\DashboardService.cs",
+              "RelativeToolTip": "Services\\Dashboard.API\\Services\\DashboardService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAWwDwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:52:10.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Dashboard.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Dashboard.API\\appsettings.json",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Dashboard.API\\appsettings.json",
+              "RelativeToolTip": "Services\\Dashboard.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-25T15:04:44.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Services\\Identity.API\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Services\\Identity.API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:43:10.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Transaction.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Transaction.API\\Program.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Transaction.API\\Program.cs",
+              "RelativeToolTip": "Services\\Transaction.API\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:24:23.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Dashboard.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Dashboard.API\\Program.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Dashboard.API\\Program.cs",
+              "RelativeToolTip": "Services\\Dashboard.API\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvy0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:24:00.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Identity.API.csproj",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Identity.API.csproj",
+              "RelativeDocumentMoniker": "Services\\Identity.API\\Identity.API.csproj",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Identity.API.csproj",
+              "RelativeToolTip": "Services\\Identity.API\\Identity.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-18T10:56:00.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250418104344_InitialCreate.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Migrations\\20250418104344_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Services\\Identity.API\\Migrations\\20250418104344_InitialCreate.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Migrations\\20250418104344_InitialCreate.cs",
+              "RelativeToolTip": "Services\\Identity.API\\Migrations\\20250418104344_InitialCreate.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAIBJwMgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:43:45.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Category.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Category.API\\Program.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Category.API\\Program.cs",
+              "RelativeToolTip": "Services\\Category.API\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:12:55.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Category.API.csproj",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Category.API\\Category.API.csproj",
+              "RelativeDocumentMoniker": "Services\\Category.API\\Category.API.csproj",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Category.API\\Category.API.csproj",
+              "RelativeToolTip": "Services\\Category.API\\Category.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-18T10:12:52.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Identity.API\\Program.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Program.cs",
+              "RelativeToolTip": "Services\\Identity.API\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAFQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:10:02.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Identity.API\\appsettings.json",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\appsettings.json",
+              "RelativeToolTip": "Services\\Identity.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T10:09:57.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Services.AppHost.csproj",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services.AppHost\\Services.AppHost.csproj",
+              "RelativeDocumentMoniker": "Services.AppHost\\Services.AppHost.csproj",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services.AppHost\\Services.AppHost.csproj",
+              "RelativeToolTip": "Services.AppHost\\Services.AppHost.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-18T10:08:08.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Category.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Services\\Category.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Category.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Services\\Category.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T10:49:43.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthModels.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Models\\AuthModels.cs",
+              "RelativeDocumentMoniker": "Services\\Identity.API\\Models\\AuthModels.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Models\\AuthModels.cs",
+              "RelativeToolTip": "Services\\Identity.API\\Models\\AuthModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:09:53.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Services\\Identity.API\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Services\\Identity.API\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:09:52.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Services\\Identity.API\\Services\\TokenService.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Services\\TokenService.cs",
+              "RelativeToolTip": "Services\\Identity.API\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:15:43.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Services\\Identity.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\SourceTest\\ExpenseTracker.Microservices\\src\\Services\\Identity.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Services\\Identity.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T10:08:57.527Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
