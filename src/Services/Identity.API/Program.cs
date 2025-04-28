@@ -82,7 +82,7 @@ if (app.Environment.IsDevelopment())
     //app.maps
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 app.UseCors("opencors");
 
 app.UseAuthentication();

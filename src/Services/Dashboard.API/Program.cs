@@ -66,7 +66,7 @@ if (app.Environment.IsDevelopment())
         options.DocumentPath = "/openapi/v1.json";
     });
 }
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 app.UseCors("opencors");
 
 app.UseAuthentication();

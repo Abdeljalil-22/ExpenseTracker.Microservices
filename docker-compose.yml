@@ -1,0 +1,173 @@
+version: '3.8'
+
+services:
+  # web:
+  #   build:
+  #     context: ./Web/expense_tracker
+  #   ports:
+  #     - "8080:80"
+  #   depends_on:
+  #     - auth
+  #     # - expenses
+  #     # - notifications
+  #     - category
+  #     - transaction
+  #     - dashboard
+  #   environment:
+  #     - AUTH_SERVICE_URL=http://auth:5000
+  #     - EXPENSES_SERVICE_URL=http://expenses:5001
+  #     - NOTIFICATIONS_SERVICE_URL=http://notifications:5002
+  #     - CATEGORY_SERVICE_URL=http://category:5003
+  #     - TRANSACTION_SERVICE_URL=http://transaction:5004
+  #     - DASHBOARD_SERVICE_URL=http://dashboard:5005
+
+  auth:
+    build:
+      context: ./src/Services
+      dockerfile: ./Identity.API/Dockerfile
+    ports:
+      - "5000:8080"
+    environment:
+      - environment=Development
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - DATABASE_URL=Server=Data Source=db_auth;Initial Catalog=ExpenseTrackerIdentity; User Id=sa;Password=1StrongPwd!!; Integrated Security=false;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False;
+
+
+  category:
+    build:
+      context: ./src/Services
+      dockerfile: ./Category.API/Dockerfile
+    ports:
+      - "5003:8080"
+    environment:
+      - environment=Development
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - DATABASE_URL=Server=Data Source=db_category:1434;Initial Catalog=ExpenseTrackerIdentity; User Id=sa;Password=1StrongPwd!!; Integrated Security=false;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
+
+  transaction:
+    build:
+      context: ./src/Services
+      dockerfile: ./Transaction.API/Dockerfile
+    ports:
+      - "5004:8080"
+    environment:
+      - environment=Development
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - DATABASE_URL=Server=db_transaction:1435;Database=Data Source=db_auth;Initial Catalog=ExpenseTrackerIdentity; User Id=sa;Password=1StrongPwd!!; Integrated Security=false;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False
+
+  dashboard:
+    build:
+      context: ./src/Services
+      dockerfile: ./Dashboard.API/Dockerfile
+    ports:
+      - "5005:8080"
+    environment:
+      - environment=Development
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - CATEGORY_SERVICE_URL=http://category:5003
+      - TRANSACTION_SERVICE_URL=http://transaction:5004
+
+
+  db_auth:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=1StrongPwd!!
+      - MSSQL_PID=Developer
+      - MSSQL_DATABASE= ExpenseTrackerIdentity
+    user: root
+    ports:
+      - 1433:1433
+    volumes:
+      - db_auth_sqlserver_data:/var/opt/mssql
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 1StrongPwd!! -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      retries: 10
+      start_period: 10s
+      timeout: 3s
+  db_auth.configurator:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    user: root
+    volumes:
+      - ./db_auth/init:/docker-entrypoint-initdb.d
+    depends_on:
+      db_auth:
+        condition: service_healthy
+    command: >
+      bash -c '
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P 1StrongPwd!! -C -d master -i docker-entrypoint-initdb.d/init.sql;
+      echo "All done!";'
+  db_category:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=1StrongPwd!!
+      - MSSQL_PID=Developer
+      - MSSQL_DATABASE= ExpenseTrackerCategory
+    user: root
+    ports:
+      - 1434:1433
+    volumes:
+      - db_category_sqlserver_data:/var/opt/mssql
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 1StrongPwd!! -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      retries: 10
+      start_period: 10s
+      timeout: 3s
+  db_category.configurator:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    user: root
+    volumes:
+      - ./db_category/init:/docker-entrypoint-initdb.d
+    depends_on:
+      db_category:
+        condition: service_healthy
+    command: >
+      bash -c '
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P 1StrongPwd!! -C -d master -i docker-entrypoint-initdb.d/init.sql;
+      echo "All done!";'
+
+  db_transaction:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=1StrongPwd!!
+      - MSSQL_PID=Developer
+      - MSSQL_DATABASE= ExpenseTrackerTransaction
+    user: root
+    ports:
+      - 1435:1433
+    volumes:
+      - db_transaction_sqlserver_data:/var/opt/mssql
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P 1StrongPwd!! -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      retries: 10
+      start_period: 10s
+      timeout: 3s
+  db_transaction.configurator:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    user: root
+    volumes:
+      - ./db_transaction/init:/docker-entrypoint-initdb.d
+    depends_on:
+      db_transaction:
+        condition: service_healthy
+    command: >
+      bash -c '
+      /opt/mssql-tools18/bin/sqlcmd -S sqlserver -U sa -P 1StrongPwd!! -C -d master -i docker-entrypoint-initdb.d/init.sql;
+      echo "All done!";'
+ 
+volumes:
+  db_auth_sqlserver_data:
+  db_category_sqlserver_data:
+  db_transaction_sqlserver_data:
